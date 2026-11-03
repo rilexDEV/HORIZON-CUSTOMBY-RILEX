@@ -1,0 +1,1 @@
+const el=document.getElementById('host-status');const own=location.hostname==='rilexdev.github.io'&&location.pathname.startsWith('/HORIZON-CUSTOMBY-RILEX/');el.textContent=own?'● Project website · '+location.hostname+'/HORIZON-CUSTOMBY-RILEX/':'Preview or other host · '+location.host+' · Verify the address before downloading';
