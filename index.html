@@ -1,1 +1,218 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Horizon Custom by RILEXezz. Windows custom build, local setup tutorial and release download."><meta name="referrer" content="strict-origin-when-cross-origin"><title>HORIZON CUSTOM BY RILEXezz | Horizon Custom</title><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap"><nav><a class="brand" href="index.html">HORIZON<span> / CUSTOM</span></a><div class="links"><a href="index.html#features">Features</a><a href="index.html#guide">Tutorial</a><a href="index.html#faq">FAQ</a><a href="get-started.html">Get started ↗</a></div></nav></div></header><div class="wrap status" id="host-status">Project website · Check the address bar: rilexdev.github.io/HORIZON-CUSTOMBY-RILEX/</div><main class="wrap"><section class="hero"><div><div class="eyebrow">Windows x64 · Community preview</div><h1>Your world.<br><em>Your Horizon.</em></h1><p class="lead">HORIZON CUSTOM BY RILEXezz. A custom Rust-based launcher and client, with local game-file setup and a profile that’s yours.</p><div class="actions"><a class="btn" href="get-started.html">Get started ↗</a><a class="btn secondary" href="#guide">How to play ↓</a></div><p class="small">Build 3324020 · November 3, 2026 · Game assets not included</p></div><div class="art" role="img" aria-label="Abstract purple horizon over geometric terrain"><label>RILEXezz / CUSTOM EDITION</label><div class="sun"></div><div class="terrain"></div><b>BEYOND THE HORIZON</b></div></section><div class="strip"><span>01 / CHOOSE LOCAL FILES</span><span>02 / PREPARE YOUR PROFILE</span><span>03 / START PLAYING</span></div><section class="content" id="features"><div class="eyebrow">Built around your setup</div><h2>Less guessing.<br>More control.</h2><div class="grid"><article class="feature"><span class="num">01 — LOCAL SETUP</span><h3>Choose it. Or find it.</h3><p>Pick your compatible JAR manually, or use Automatic to search supported local installation locations and prepare them.</p></article><article class="feature"><span class="num">02 — YOUR PROFILE</span><h3>A name before multiplayer.</h3><p>Choose a valid profile name before connecting. Servers that require Microsoft authentication still need a valid signed-in session.</p></article><article class="feature"><span class="num">03 — CUSTOM CLIENT</span><h3>Keep the pair together.</h3><p>The package includes the launcher and custom client. Start-Custom.ps1 connects them and disables launcher self-updates for that launch.</p></article></div></section><section class="content" id="guide"><div class="eyebrow">From download to launch</div><h2>Your first launch, explained.</h2><p class="lead">You need Windows x64 and a complete, compatible local Minecraft 26.3 installation. An unrelated JAR version will not work.</p><div class="steps"><article class="step"><div><h3>Download and extract everything</h3><p>Use Get started, then download the ZIP. Right-click it and choose Extract All. Keep both EXEs, Start-Custom.ps1 and the included files in the same folder.</p></div></article><article class="step"><div><h3>Start the custom launcher</h3><p>Right-click <code>Start-Custom.ps1</code> and choose Run with PowerShell. If Windows blocks it, read the message and contact us; do not disable your antivirus or system-wide security settings.</p></div></article><article class="step"><div><h3>Select your local game files</h3><p>Select an installed Horizon version. On Home, choose your existing matching installation path or use <code>Choose jar…</code>. Press Prepare. Alternatively, use <code>Automatic</code> to search supported local locations and prepare.</p></div></article><article class="step"><div><h3>Set your profile, then play</h3><p>Choose your player name before multiplayer and start the game. Add the server address in Multiplayer. A server requiring Microsoft authentication needs a valid account session; an offline name cannot replace it.</p></div></article></div><div class="note" lang="ar" dir="rtl"><b>الخطوات بالعربي:</b> نزّل ZIP وفكّه كاملًا، ثم شغّل Start-Custom.ps1. اختر ملفات Minecraft 26.3 المحلية عبر Choose jar أو Automatic، وجهّزها وحدّد اسم لاعبك. الحساب مطلوب للسيرفرات التي تتحقق من Microsoft.</div></section><section class="content" id="faq"><div class="eyebrow">A few things to know</div><h2>Before you jump in.</h2><details><summary>Does this include Minecraft assets?</summary><p>No. Supply your own complete compatible local installation. Native preparation does not download the full game or repair missing assets. Other Java-instance features are separate.</p></details><details><summary>Automatic cannot find my files. What now?</summary><p>Choose the JAR manually and check the installation path. The matching 26.3 JAR and required assets must exist locally. Automatic searches supported locations, not every folder on your drive.</p></details><details><summary>Why does a server ask me to sign in?</summary><p>Some servers require an authenticated Microsoft session. This build does not bypass server authentication, and compatibility with every server is not guaranteed.</p></details><details><summary>What has been tested?</summary><p>GitHub Actions passed the launcher tests, encrypted-login regression test and both Windows builds. A short isolated launcher startup check passed. Live multiplayer and complete setup on every PC have not been verified for this release.</p></details><details><summary>Why is there an advertising step?</summary><p>The download flow can take you to LootLabs, an external monetization service supporting this project. You will see a clear notice before leaving. The final file page has no embedded advertising scripts.</p></details><details><summary>Where can I report a problem?</summary><p>Email <a href="mailto:rilexthedev@gmail.com">rilexthedev@gmail.com</a> with build 3324020 and the error message. Do not send passwords, session tokens or private account information.</p></details></section><section class="content"><div class="eyebrow">Made personal</div><h2>Custom by RILEXezz.</h2><p class="lead">Follow updates and tutorials on TikTok.</p><a class="btn secondary" href="https://www.tiktok.com/@rilexthe_1_andonly">@rilexthe_1_andonly ↗</a></section></main><footer class="wrap"><div class="footlinks"><a href="privacy.html">Privacy</a><a href="terms.html">Terms & licenses</a><a href="https://github.com/rilexDEV/horizon-custom/tree/3324020df42f834c86e6987942663ab291f8e3ea">Source code ↗</a><a href="https://www.tiktok.com/@rilexthe_1_andonly">TikTok ↗</a><a href="mailto:rilexthedev@gmail.com">Contact</a></div><p>Custom modifications by RILEXezz · Based on Horizon and Horizon Offline Launcher.<br>Unofficial community build. Not affiliated with the original Horizon maintainers, Mojang or Microsoft. Minecraft belongs to its respective rights holders.</p></footer><script src="site.js" defer></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon Custom by Rilex - The Ultimate Offline Experience</title>
+    <meta name="description" content="Horizon Custom - The best offline Minecraft client built in Rust. Play with friends, offline, no Microsoft account needed.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Space+Grotesk:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-primary: #0a0015;
+            --bg-secondary: #150025;
+            --accent: #8b5cf6;
+            --accent-hover: #a78bfa;
+            --text: #f4f4f5;
+            --text-muted: #a1a1aa;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text);
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+        .bg-grid {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background-image: linear-gradient(rgba(139, 92, 246, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(139, 92, 246, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px; z-index: -2;
+        }
+        .bg-glow {
+            position: fixed; top: -50%; left: 50%; transform: translateX(-50%);
+            width: 800px; height: 800px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.25) 0%, transparent 70%);
+            filter: blur(100px); z-index: -1; animation: pulse 8s ease-in-out infinite;
+        }
+        @keyframes pulse { 0%, 100% { opacity: 0.6; transform: translateX(-50%) scale(1); } 50% { opacity: 1; transform: translateX(-50%) scale(1.15); } }
+        nav { padding: 24px 5%; display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 10; }
+        .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 900; letter-spacing: -0.5px; }
+        .logo span { color: var(--accent); }
+        .nav-links { display: flex; gap: 32px; list-style: none; }
+        .nav-links a { color: var(--text-muted); text-decoration: none; font-weight: 600; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--text); }
+        .hero { padding: 60px 5% 100px; text-align: center; max-width: 1200px; margin: 0 auto; }
+        .badge {
+            display: inline-flex; align-items: center; gap: 8px;
+            background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.3);
+            padding: 8px 16px; border-radius: 100px; font-size: 14px; font-weight: 600;
+            color: var(--accent-hover); margin-bottom: 32px;
+        }
+        .badge::before { content: ''; width: 8px; height: 8px; background: #22c55e; border-radius: 50%; box-shadow: 0 0 10px #22c55e; animation: blink 2s infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+        h1 {
+            font-family: 'Space Grotesk', sans-serif; font-size: clamp(48px, 8vw, 96px);
+            font-weight: 900; line-height: 1; letter-spacing: -3px; margin-bottom: 24px;
+            background: linear-gradient(135deg, #ffffff 0%, #a78bfa 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .subtitle { font-size: clamp(18px, 2vw, 22px); color: var(--text-muted); max-width: 700px; margin: 0 auto 48px; line-height: 1.6; }
+        .btn-primary {
+            display: inline-flex; align-items: center; gap: 12px;
+            padding: 20px 40px; font-family: 'Inter', sans-serif; font-size: 18px; font-weight: 700;
+            color: white; background: linear-gradient(135deg, var(--accent) 0%, #6d28d9 100%);
+            border: none; border-radius: 12px; text-decoration: none; cursor: pointer;
+            box-shadow: 0 10px 40px rgba(139, 92, 246, 0.4); transition: all 0.3s; position: relative; overflow: hidden;
+        }
+        .btn-primary::before {
+            content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transition: left 0.5s;
+        }
+        .btn-primary:hover { transform: translateY(-3px); box-shadow: 0 15px 50px rgba(139, 92, 246, 0.6); }
+        .btn-primary:hover::before { left: 100%; }
+        .btn-secondary {
+            display: inline-flex; align-items: center; gap: 8px; padding: 20px 32px;
+            font-size: 16px; font-weight: 600; color: var(--text); background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; text-decoration: none;
+            transition: all 0.2s; margin-left: 16px;
+        }
+        .btn-secondary:hover { background: rgba(255, 255, 255, 0.1); border-color: var(--accent); }
+        .cta-group { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; margin-bottom: 24px; }
+        .download-note { font-size: 14px; color: var(--text-muted); display: flex; align-items: center; justify-content: center; gap: 6px; }
+        .features { padding: 80px 5%; max-width: 1200px; margin: 0 auto; }
+        .section-title { font-family: 'Space Grotesk', sans-serif; font-size: clamp(32px, 5vw, 56px); font-weight: 900; text-align: center; letter-spacing: -1.5px; margin-bottom: 16px; }
+        .section-subtitle { text-align: center; color: var(--text-muted); font-size: 18px; margin-bottom: 64px; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+        .feature-card {
+            padding: 32px; background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(139,92,246,0.05) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 20px; transition: all 0.3s; position: relative; overflow: hidden;
+        }
+        .feature-card::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent); opacity: 0; transition: opacity 0.3s; }
+        .feature-card:hover { transform: translateY(-5px); border-color: rgba(139, 92, 246, 0.4); background: linear-gradient(135deg, rgba(139,92,246,0.08) 0%, rgba(139,92,246,0.15) 100%); }
+        .feature-card:hover::before { opacity: 1; }
+        .feature-icon { font-size: 40px; margin-bottom: 20px; display: block; }
+        .feature-title { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; margin-bottom: 12px; }
+        .feature-desc { color: var(--text-muted); line-height: 1.6; font-size: 15px; }
+        .stats { padding: 60px 5%; max-width: 1000px; margin: 0 auto; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; text-align: center; }
+        .stat-value { font-family: 'Space Grotesk', sans-serif; font-size: 56px; font-weight: 900; background: linear-gradient(135deg, var(--accent) 0%, #a78bfa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; margin-bottom: 8px; }
+        .stat-label { color: var(--text-muted); font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; }
+        .cta-section { padding: 100px 5%; text-align: center; max-width: 800px; margin: 0 auto; }
+        .cta-title { font-family: 'Space Grotesk', sans-serif; font-size: clamp(36px, 6vw, 64px); font-weight: 900; letter-spacing: -2px; margin-bottom: 24px; }
+        .cta-desc { color: var(--text-muted); font-size: 18px; margin-bottom: 40px; line-height: 1.6; }
+        footer { padding: 40px 5%; border-top: 1px solid rgba(255, 255, 255, 0.05); text-align: center; color: var(--text-muted); font-size: 14px; }
+        footer a { color: var(--accent-hover); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+        @media (max-width: 768px) { .nav-links { display: none; } .btn-secondary { margin-left: 0; } h1 { letter-spacing: -2px; } }
+    </style>
+</head>
+<body>
+    <div class="bg-grid"></div>
+    <div class="bg-glow"></div>
+
+    <nav>
+        <div class="logo">RILEX<span>.</span>DEV</div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="https://github.com/rilexDEV/horizon-custom" target="_blank">GitHub</a></li>
+            <li><a href="https://www.tiktok.com/@rilexthe_1_andonly" target="_blank">TikTok</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="badge">Powered by Rust · Horizon Native</div>
+        <h1>Horizon<br>Custom.</h1>
+        <p class="subtitle">
+            The ultimate offline Minecraft experience. Play with friends, no Microsoft account required. 
+            Native mods, cloud friend system, and blazing-fast Rust performance.
+        </p>
+        
+        <!-- ⚠️ ضع رابط LootLabs الخاص بك هنا (استبدل YOUR_LOOTLABS_LINK) -->
+        <div class="cta-group">
+            <a href="YOUR_LOOTLABS_LINK" class="btn-primary">
+                ⬇️ Download Now
+            </a>
+            <a href="https://github.com/rilexDEV/horizon-custom" class="btn-secondary" target="_blank">
+                📂 View Source
+            </a>
+        </div>
+        
+        <p class="download-note">
+            🔒 Windows 10/11 · Single EXE · No Installer Needed
+        </p>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="section-title">Why Horizon Custom?</h2>
+        <p class="section-subtitle">Everything you need, nothing you don't.</p>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <span class="feature-icon">🔓</span>
+                <h3 class="feature-title">100% Offline</h3>
+                <p class="feature-desc">No Microsoft account. No login. Just play. Works completely offline with any username.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">👥</span>
+                <h3 class="feature-title">Friend System</h3>
+                <p class="feature-desc">Add friends, see who's online, and auto-join their servers. Built-in cloud backend.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">⚡</span>
+                <h3 class="feature-title">Rust Performance</h3>
+                <p class="feature-desc">Built from scratch in Rust. High FPS, low memory, no lag. Native native native.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🔍</span>
+                <h3 class="feature-title">Auto JAR Search</h3>
+                <p class="feature-desc">No more hunting for files. The launcher finds your game JAR automatically.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🎨</span>
+                <h3 class="feature-title">Custom Skins</h3>
+                <p class="feature-desc">Use your own PNG skin and cape. No restrictions. Show off your style.</p>
+            </div>
+            <div class="feature-card">
+                <span class="feature-icon">🛡️</span>
+                <h3 class="feature-title">Native Mods</h3>
+                <p class="feature-desc">Install mods directly from GitHub. No scripts, no complexity. Just paste a link.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-grid">
+            <div>
+                <div class="stat-value">100%</div>
+                <div class="stat-label">Offline Ready</div>
+            </div>
+            <div>
+                <div class="stat-value">1</div>
+                <div class="stat-label">Single EXE File</div>
+            </div>
+            <div>
+                <div class="stat-value">0</div>
+                <div class="stat-label">Microsoft Accounts</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2 class="cta-title">Ready to Play?</h2>
+        <p class="cta-desc">Download Horizon Custom today and experience Minecraft the way it should be: fast, free, and offline.</p>
+        <!-- ⚠️ ضع رابط LootLabs الخاص بك هنا أيضاً -->
+        <a href="YOUR_LOOTLABS_LINK" class="btn-primary">
+            ⬇️ Get Horizon Custom
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 RilexDEV · Made with ❤️ and Rust · <a href="https://www.tiktok.com/@rilexthe_1_andonly" target="_blank">TikTok: @rilexthe_1_andonly</a></p>
+        <p style="margin-top: 8px; font-size: 12px; opacity: 0.6;">
+            Not affiliated with Mojang, Microsoft, or the original Horizon project. Educational purposes only.
+        </p>
+    </footer>
+</body>
+</html>
